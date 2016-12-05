@@ -1,1 +1,9 @@
 <h3>Welcome</h3>
+<table class="table table-striped">
+  <% TestModel.find_each do |test_model| %>
+  <tr>
+    <td><%= test_model.name %></td>
+    <td><%= test_model.target_date %></td>
+  </tr>
+  <% end %>
+</table>

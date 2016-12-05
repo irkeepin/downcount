@@ -19,6 +19,7 @@ group :development do
 end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bootstrap', '~> 4.0.0.alpha3.1'
+gem 'devise'
 gem 'high_voltage'
 group :development do
   gem 'better_errors'
